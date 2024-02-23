@@ -39,4 +39,11 @@ export class UncommonPageComponent {
   deleteClient(): void {
     this.clients.pop();
   }
+
+  //KeyValue Pipe
+  public cat = {
+    name: 'Tango',
+    age: '2',
+    address: 'Ottawa, Canada',
+  };
 }
