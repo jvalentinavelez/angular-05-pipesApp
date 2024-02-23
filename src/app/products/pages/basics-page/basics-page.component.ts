@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './basics-page.component.html',
   styleUrl: './basics-page.component.css',
 })
-export class BasicsPageComponent {}
+export class BasicsPageComponent {
+  public nameLower: string = 'olivia';
+  public nameUpper: string = 'OLIVIA';
+  public fullName: string = 'OliVIa';
+
+  public customDate: Date = new Date();
+}
